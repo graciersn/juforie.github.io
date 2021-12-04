@@ -1,1 +1,1 @@
-# juforie.github.io
+# JUFORIE.github.io
