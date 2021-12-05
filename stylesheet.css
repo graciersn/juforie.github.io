@@ -202,4 +202,15 @@ nav ul li a:hover::after{
     visibility: visible;
   }
 }
+@media all and (max-width: 1000px) {
+  
+}
 
+@media all and (max-width: 670px) {
+  .header-right{
+    display: none;
+  }
+  .menu-icon {
+    display: none;
+  }
+}
