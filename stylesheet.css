@@ -68,18 +68,18 @@ nav ul li a{
   position: relative;
 }
 
-.nav ul li a::after{
+nav ul li a::after{
   content: "";
   width: 0;
   height: 3px;
   position: absolute;
-  bottom: 0;
+  bottom: -5%;
   left: 50%;
   transform: translateX(-50%);
   background: rgb(154,21,219);
   transition: 0.3s;
 }
-.nav ul li a:hover::after{
+nav ul li a:hover::after{
   width: 50%;
 }
 .content h1{
