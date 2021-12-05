@@ -20,14 +20,39 @@
   position: relative;
   width: 170px;
   cursor: pointer;
+  animation: movedown 1s linear 1;
+  animation-delay: 1s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
 }
+
+@keyframes movedown{
+  0%{
+    transform: translateY(-100px);
+    visibility: visible;
+  }
+  100%{
+    transform: translateY(0);
+    visibility: visible;
+  }
+}
+
+
 .cart{
   width: 65px;
   cursor: pointer;
+  animation: movedown 1s linear 1;
+  animation-delay: 3s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
 }
 nav{
   flex: 1;
   padding-left: 60px;
+  animation: movedown 1s linear 1;
+  animation-delay: 2s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
 }
 
 nav ul li{
@@ -55,7 +80,23 @@ nav ul li a{
 .content{
   margin-left: 10%;
   margin-top: 10%;
+  animation: moveright 1s linear 1;
+  animation-delay: 4s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
 }
+
+@keyframes moveright{
+  0%{
+    transform: translateX(-100px);
+    visibility: visible;
+  }
+  100%{
+    transform: translateX(0);
+    visibility: visible;
+  }
+}
+
 .content .btn{
   display: inline-block;
   background: linear-gradient(45deg, #87adfe, #d0bdda);
@@ -85,6 +126,21 @@ nav ul li a{
   padding-left: 60px;
   position: absolute;
   bottom: 80px;
+  animation: zoomin 1s linear 1;
+  animation-delay: 5s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+
+@keyframes zoomin{
+  0%{
+    transform: scale(0.5);
+    visibility: visible;
+  }
+  100%{
+    transform: scale(1);
+    visibility: visible;
+  }
 }
 
 .feature-img{
@@ -92,12 +148,45 @@ nav ul li a{
   position: absolute;
   bottom: 0;
   right: 160px;
+  animation: zoomin 1s linear 1;
+  animation-delay: 6s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
 }
+
+@keyframes zoomin{
+  0%{
+    transform: scale(0.5);
+    visibility: visible;
+  }
+  100%{
+    transform: scale(1);
+    visibility: visible;
+  }
+}
+
 .social-links a{
   text-decoration: none;
   color: #6a7199;
   padding-right: 20px;
   font-size: 20px;
+  animation: movedown 1s linear 1;
+  animation-delay: 7s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
 }
+
+@keyframes movedown{
+  0%{
+    transform: translateY(-100px);
+    visibility: visible;
+  }
+  100%{
+    transform: translateY(0);
+    visibility: visible;
+  }
+}
+
+
 
 
