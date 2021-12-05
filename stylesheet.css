@@ -79,10 +79,9 @@ nav ul li a{
   background: rgb(154,21,219);
   transition: 0.3s;
 }
-.nav ul li a::after{
+.nav ul li a:hover::after{
   width: 50%;
 }
-
 .content h1{
   font-size: 60px;
   font-weight: 100;
